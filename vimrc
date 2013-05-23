@@ -13,6 +13,7 @@ set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
+set showmatch   " show matches on the fly
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
@@ -82,6 +83,7 @@ endif " has("autocmd")
 " Softtabs, 2 spaces
 set tabstop=2
 set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 " Always display the status line
